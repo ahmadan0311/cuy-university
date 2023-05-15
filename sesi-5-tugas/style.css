@@ -1,21 +1,46 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  /* display: flex;
-  justify-content: center; */
+}
+
+body h1 {
+  text-align: center;
 }
 
 form {
-  border: solid 4px #f1f1f1;
+  border: solid 3px #f1f1f1;
   max-width: 720px;
-  margin: auto;
-  padding: 10px;
+  margin: 0 auto;
 }
 
 input[type=text], input[type=password] {
   width: 100%;
-  padding: 12px 20px;
-  margin-right: 20px;
+  padding: 12px 15px;
+  margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+section {
+  padding: 16px;
+}
+
+.cancelbtn {
+  width: auto;
+  background-color: red;
+}
+
+section span {
+  float: right;
+  padding-top: 16px;
 }
