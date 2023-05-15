@@ -10,15 +10,19 @@
 </head>
 
 <body>
-  <h1>Login Form</h1>
 
   <form>
+    <section>
+      <h1>Login</h1>
+      <hr>
+    </section>
+
     <section>
       <label><b>Username</b></label>
       <input id="usernameInput" placeholder="Enter username" type="text">
 
       <label><b>Password</b></label>
-      <input id="passwordInput" placeholder="Enter username" type="password">
+      <input id="passwordInput" placeholder="Enter password" type="password">
 
       <button type="button" id="loginButton" onclick="onLogin()">Log In</button>
       <label>
@@ -26,9 +30,8 @@
       </label>
     </section>
 
-    <section style="background-color: #f1f1f1;">
-      <button class="cancelbtn">Cancel</button>
-      <span>Forgot password?</span>
+    <section class="signin">
+      <p>Need an account? <a href="register.html">Sign In</a>.</p>
     </section>
   </form>
 
@@ -39,3 +42,4 @@
 </html>
 
 <!-- for inspirational purpose https://codier.io/creation/ryjo7FKN2 --> 
+<!-- to-do: make an object localstorage -->
